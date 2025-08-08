@@ -1,0 +1,46 @@
+MODES:
+	-m newcfg -n <config name>	[ create config template with given config name ]"
+	-m listcfg 	[ List all available config ]"
+	-m testcfg -n <config name>	[ Testing Login Credential ]"
+	-m listfolder -n <config name> -e	[ Source Folder List (-e -> excluded folders) ]"
+	-m gendb -n <config name> -l	[ Generate message db File (-l After Last Sync) ]"
+	-m showstats -n <config name> -t 	[ Show Tracker Data (p->Pending, c->Complete, s->Skipped_Size) ]"
+	-m sync -n <config name>	[ Sync ]"
+	-m compare -n <config name> -b 	[ Compare and Report Mismatch (-b -> build the comparison list) ]".
+
+
+	
+config_file: SrcAddress_DstAddress.json
+src_tracker_file: <config_file>_src.track
+dst_tracker_file: <config_file>_src.track
+log_file: <config_file>.log
+
+
+Tracker DB Data Fileds
+
+[Global]
+        "ConfigFile": "gazi-gmail_v02.json",
+        "FolderCount": 3,
+        "TotalMsgCount": 942,
+		"TotalSizeSkipped": 12,
+		"Version": { 
+			"0": "20200822163300"
+        "2020.08.22": 578314384
+		"FolderList": { } << Folder Level
+		
+[Folder]
+        "FolderName": "INBOX.Example",
+        "FolderTotalMsgCount": 787,
+		"FolderTotalSizeSkipped": 12,
+        "FolderCompleteCount": 778,
+        "FolderPendingCount": 9
+		"FolderMsgList": { } << Message Level
+		
+[Message]
+		"SUB": "Financial Statements",
+		"DATE": "Thu, 10 Jan 2013 01:23:13 -0800 (PST)",
+		"VER: '0',
+		"SIZE": "109210",
+		"MAX-SIZE": 0,
+		"DONE": 1		
+

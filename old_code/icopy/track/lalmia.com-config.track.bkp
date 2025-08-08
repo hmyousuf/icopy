@@ -1,0 +1,97 @@
+[
+    {
+        "config_file": "lalmia.com-config.json",
+        "sFolderCount": 1,
+        "sTotalMsgCount": 9,
+        "lastError": ""
+    },
+    {
+        "folder_name": "Sent",
+        "folder_msg_count": 9,
+        "pending_msg_count": 9,
+        "size_msg_count": 0,
+        "sMsgList": {
+            "1": {
+                "UID": 4,
+                "MID": "<c643640b87b41759163abc2a391a0cc0@lalmia.com>",
+                "SIZE": "31240",
+                "SUB": "Fwd: Unlimited 1 Hosting Account Information of your dhakahostbd.com",
+                "DATE": "Mon, 10 Sep 2018 15:38:03 +0600",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            },
+            "2": {
+                "UID": 5,
+                "MID": "<b6cc793b3fa778aabff298c60d65f3bc@lalmia.com>",
+                "SIZE": "931",
+                "SUB": "xeonbd cred",
+                "DATE": "Mon, 10 Sep 2018 15:39:14 +0600",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            },
+            "3": {
+                "UID": 6,
+                "MID": "<b849570270a5df3c5cfbad7958339f6c@lalmia.com>",
+                "SIZE": "1499",
+                "SUB": "Package and Name change",
+                "DATE": "Tue, 11 Sep 2018 11:42:28 +0600",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            },
+            "4": {
+                "UID": 7,
+                "MID": "<ec49783361ab9f64a6b35a8a84c26f8e@lalmia.com>",
+                "SIZE": "1065",
+                "SUB": "Dhakahostbd Cred",
+                "DATE": "Tue, 11 Sep 2018 14:28:06 +0600",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            },
+            "5": {
+                "UID": 8,
+                "MID": "<2a5b2a86874f4126be53768ae760e405@lalmia.com>",
+                "SIZE": "1066",
+                "SUB": "Dhakahostbd Cred",
+                "DATE": "Tue, 11 Sep 2018 14:29:07 +0600",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            },
+            "6": {
+                "UID": 20,
+                "MID": "<90c3c4b4bfb47c0439c3ad7464c82c99@lalmia.com>",
+                "SIZE": "863",
+                "SUB": "testing",
+                "DATE": "Sun, 12 May 2019 13:49:08 +0600",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            },
+            "7": {
+                "UID": 24,
+                "MID": "<63bdabd544777c18ef341e5019b43c82@lalmia.com>",
+                "SIZE": "870",
+                "SUB": "SPF and DKIM test",
+                "DATE": "Mon, 20 May 2019 13:57:22 +0600",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            },
+            "8": {
+                "UID": 25,
+                "MID": "<e299c2f3a4dc1604a030dbf4d4155fd7@lalmia.com>",
+                "SIZE": "862",
+                "SUB": "dkim",
+                "DATE": "Mon, 20 May 2019 14:00:24 +0600",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            },
+            "9": {
+                "UID": 26,
+                "MID": "<c6935e5df63a814c30ae3b20912c099f@lalmia.com>",
+                "SIZE": "4945",
+                "SUB": "openvpn profile",
+                "DATE": "Thu, 17 Oct 2019 10:46:01 -0400",
+                "MAX-SIZE": 0,
+                "DONE": 0
+            }
+        }
+    }
+]

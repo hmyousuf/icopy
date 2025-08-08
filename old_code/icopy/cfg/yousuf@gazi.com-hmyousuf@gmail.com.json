@@ -1,0 +1,28 @@
+{
+    "global": {
+        "conf-filename": "yousuf@lalmia.com-hmyousuf@gmail.com.json",
+        "src-db-filename": "yousuf@lalmia.com-hmyousuf@gmail.com.strack",
+        "dst-db-filename": "yousuf@lalmia.com-hmyousuf@gmail.com.dtrack",
+        "log-filename": "yousuf@lalmia.com-hmyousuf@gmail.com.log",
+        "max-msg-size": "15360000"
+    },
+    "src": {
+        "hostname": "mail.lalmia.com",
+        "username": "yosuf@lalmia.com",
+        "password": "",
+        "ssl": true,
+        "flags": true,
+		"gmail": false,
+        "excludedFolders": ["Drafts", "Trash", "spam", "INBOX.Drafts", "INBOX.Spam", "INBOX.Trash"]
+    },
+    "dst": {
+        "hostname": "mail.gazi.com",
+        "username": "yousuf@gazi.com",
+        "password": "",
+        "ssl": true,
+        "flags": true,
+		"gmail": false,
+        "popFolder": "INBOX",
+        "pushFolder": "BACKUP_GAZI"
+    }
+}

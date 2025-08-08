@@ -1,0 +1,42 @@
+{
+    "global": {
+        "conf-filename": "",
+        "src-db-filename": "",
+        "dst-db-filename": "",
+        "log-filename": "",
+        "ask-pass": false,
+        "dst-gmail": false,
+        "max-msg-size": ""
+
+    },
+    "src": {
+        "hostname": "mail.srcdomain.dom",
+        "username": "user@srcdomain.dom",
+        "password": "",
+        "ssl": true,
+        "flags": true,
+        "excludedFolders": [
+            "Drafts",
+            "Trash",
+            "spam",
+            "INBOX.Drafts",
+            "INBOX.Spam",
+            "INBOX.Trash"
+        ],
+        "--": "",
+        "folderSeparator": "."
+    },
+    "dst": {
+        "hostname": "mail.dstdomain.dom",
+        "username": "user@dstdomain.dom",
+        "password": "",
+        "ssl": true,
+        "flags": true,
+        "popFolder": "",
+        "pushFolder": "",
+        "--": "",
+        "folderSeparator": ".",
+        "trimFolderPath": false
+
+    }
+}
