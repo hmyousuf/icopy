@@ -1,8 +1,8 @@
 # Project documentation
 
-- feature 1
-- feature 2
-- feature 3
+- imap to imap copy general script for cellary agent
+- domain level sync using dovecot master password
+- incremental sync after the last synced message
 
 ## app structure
 - task schedular
